@@ -1,0 +1,2 @@
+rootProject.name='proyecto_riesgos'
+include ':app'

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    >
+
+    <TextView
+        android:id="@+id/popuptitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NUEVA UBICACIÓN"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/latitudinput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="LATITUD"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/longitudinput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="LONGITUD"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/radioinput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="RADIO"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btncurrent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UBICACIÓN ACTUAL" />
+
+    <Button
+        android:id="@+id/btnaceptar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ACEPTAR" />
+</LinearLayout>
